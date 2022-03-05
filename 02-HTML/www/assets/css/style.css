@@ -1,0 +1,36 @@
+.header {
+  padding-top: 2%;
+  background-color: #f08080;
+  color: white;
+  padding-bottom: 2%;
+}
+.title {
+  text-align: center;
+}
+.href {
+  padding-left: 80%;
+}
+
+.footer {
+  background-color: #f08080;
+  color: white;
+}
+
+.button {
+  background-color: white;
+  border-color: #f08080;
+  border-radius: 10%;
+  color: #f08080;
+}
+.center {
+  text-align: center;
+}
+h2 {
+  color: #f08080;
+}
+.form {
+  padding-left: 30%;
+}
+.login-card {
+  background-color: #f2f4f4;
+}

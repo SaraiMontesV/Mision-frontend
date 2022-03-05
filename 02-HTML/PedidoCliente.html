@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Toma de pedido</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="title">Bienvenido a Sabor de ensueño </h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12"><br>
+                <a href="./index.html">Volver a la pantalla principal</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <br><br>
+                <img src="./assets/img/logo.jpg" width="300px" height="300px">
+                <br><br><br><br>
+                <img src="./assets/img/pastel.jpg" width="300px" height="300px">
+
+            </div>
+            <div class="col-md-8">
+                <h2 class="center">Crea tu pedido</h2>
+                <form id="form1" method="post" class="form">
+                    <label for="nombre">Nombre completo:</label><br>
+                    <input type="text" id="nombre" name="nombre"><br><br>
+                    <label for="telefono">Teléfono:</label><br>
+                    <input type="number" id="telefono" name="telefono" minlength="10" maxlength="10"><br><br>
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input type="email" id="correo" name="correo"><br><br>
+                    <label for="descripcion">Descripción general del pastel:</label><br>
+                    <textarea id="descripcion" name="descripcion"></textarea><br><br>
+
+                    <p><strong>Selecciona los sabores de tu pastel</strong>
+                    </p>
+                    <input type="checkbox" id="vainilla" name="vainilla">
+                    <label for="vainilla">Vainilla</label><br>
+                    <input type="checkbox" id="frutos-rojos" name="frutos-rojos">
+                    <label for="frutos-rojos">Frutos rojos</label><br>
+                    <input type="checkbox" id="nutella" name="nutella">
+                    <label for="nutella">Chocolate con Espuma de Nutella</label><br>
+                    <input type="checkbox" id="zebra" name="zebra">
+                    <label for="zebra">Zebra</label><br>
+                    <input type="checkbox" id="nutella" name="nutella">
+                    <label for="expresso">Expresso</label><br>
+                    <input type="checkbox" id="mont-blan" name="mont-blanc">
+                    <label for="mont-blanc">Mont Blanc</label><br><br>
+
+                    <p><strong>Selecciona las decoraciones de tu pastel</strong>
+                    </p>
+                    <input type="checkbox" id="frutas" name="frutas">
+                    <label for="frutas">Frutas</label><br>
+                    <input type="checkbox" id="chispitas" name="chispitas">
+                    <label for="chispitas">Chispitas</label><br>
+                    <input type="checkbox" id="chantilly" name="chantilly">
+                    <label for="chantilly">Chantilly cream</label><br>
+                    <input type="checkbox" id="fondant" name="fondant">
+                    <label for="fondant">Fondant</label><br>
+                    <br>
+                    <!-- <input type="button" value="Enviar pedido" onClick="alert('Tu pedido se ha enviado')"> -->
+                    <input type="reset" value="Enviar pedido" class="button"
+                        onClick="alert('Tu pedido se ha enviado :) Puedes volver a la pantalla principal');">
+                </form><br><br>
+            </div>
+        </div>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="./assets/js/bootstrap.js"></script>
+</body>
+
+</html>
