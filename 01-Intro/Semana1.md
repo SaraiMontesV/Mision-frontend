@@ -1,4 +1,4 @@
-# Practicas de Intro a Frontend
+# Resumen de las Practicas de Intro a Frontend
 
 Para las practicas de esta semana tenemos el siguiente caso y a raíz de eso sacaremos los puntos mencionados abajo.
 
@@ -12,8 +12,8 @@ Para las practicas de esta semana tenemos el siguiente caso y a raíz de eso sac
 - El administrador actualiza el proceso de la demanda y agrega comentarios en cada paso del proceso.
 - Al usuario le llegan correos de notificación para saber el avance de su proceso.
 - La página debe de ser responsive para poderla ver desde el celular.
-- La preferncia de colores del cliente es azul marino y blanco, pero acepta propuestas.
-- **Practicas**
+- La preferencia de colores del cliente es azul marino y blanco, pero acepta propuestas.
+
   
   # Anexo en cada link las evidencias de mi trabajo a continuación:
   - [Toma de requerimientos](https://github.com/SaraiMontesV/Mision-frontend/blob/main/01-Intro/1.-Requerimientos.doc)
