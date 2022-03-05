@@ -14,7 +14,8 @@ Para las practicas de esta semana tenemos el siguiente caso y a raíz de eso sac
 - La página debe de ser responsive para poderla ver desde el celular.
 - La preferncia de colores del cliente es azul marino y blanco, pero acepta propuestas.
 - **Practicas**
-  Anexo en cada link las evidencias de mi trabajo:
+  
+  # Anexo en cada link las evidencias de mi trabajo a continuación:
   - [Toma de requerimientos]()
   - [Crea tu buyer persona](https://miro.com/app/board/uXjVOKijaj8=/?invite_link_id=299657378798)
   - [Publico objetivo](https://miro.com/app/board/uXjVOK7GA0k=/?invite_link_id=935235274225)
